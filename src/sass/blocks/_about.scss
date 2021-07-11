@@ -1,0 +1,42 @@
+.about {
+    min-height: 780px;
+    position: relative;
+
+    &__text {
+        margin-top: 57px;
+        margin-bottom: 30px;
+        color: #080808;
+        font-family: "Montserrat";
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+    &__left {
+        max-width: 500px;
+    }
+
+    }
+    &__wrapper {
+        position: relative;
+        display: grid;
+        grid-template-columns: 500px 544px;
+        justify-content: space-between;
+        grid-template-rows: 635px;
+        &::before {
+            content: "";
+            display: block;
+            position: absolute;
+            background: url('../../img/2-rombs.png') center (center / cover) no-repeat;
+            width: 1400px;
+            height: 960px;
+            top: -200px;
+            z-index: -1;
+            left: -800px;
+        }
+    }
+    &__photo {
+        width: 100%;
+        object-fit: cover;
+        border-radius: 30px;
+        
+    }
+}

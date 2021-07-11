@@ -1,0 +1,42 @@
+@import 'libs/bootstrap-reboot.min';
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Subrayada&family=Montserrat:ital,wght@0,500;1,700&family=Playfair+Display:ital,wght@1,900&display=swap');
+
+@import 'base/variables';
+@import 'blocks/title';
+@import 'blocks/button';
+@import 'blocks/promo';
+@import 'blocks/about';
+@import 'blocks/shop';
+@import 'blocks/feedback';
+@import 'blocks/contacts';
+@import 'blocks/footer';
+@import 'blocks/market';
+@import 'blocks/media';
+
+
+
+* {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat Subrayada', sans-serif;
+    font-family: 'Playfair Display', serif;
+    margin: 0;
+    padding: 0;
+}
+
+input, button, textarea {
+    outline: none;
+    text-decoration: none;
+}
+body {
+    background-color: $main-color;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}

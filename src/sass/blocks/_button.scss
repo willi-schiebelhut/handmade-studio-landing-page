@@ -1,0 +1,38 @@
+.button {
+    max-width: 266px;
+    height: 78px;
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 39px;
+    background: linear-gradient(to right, #cf7171 0%, #cd4e4d 100%);
+    padding: 33px 43px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.4s;
+    outline: none;
+    &:hover {
+        transform: scale(1.07);
+        transition: .4s all;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .button {
+        margin: 0 auto; 
+    }
+}
+
+@media (max-width: 424.98px) {
+    .button {
+        width: 220px;
+        height: 65px;
+        font-size: 14px;
+        padding: 0;
+    }
+}

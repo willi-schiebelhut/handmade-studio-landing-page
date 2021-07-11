@@ -1,0 +1,25 @@
+.footer {
+    position: relative;
+    &__wrapper {
+        background-color: #e0c5c5;
+        min-height: 220px;
+        width: 100%;
+        position: absolute;
+        left: 0;
+        bottom: -40px;
+        z-index: -2;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 100px;
+    }
+    &__text {
+        padding: 40px 10px 20px 10px;
+        margin-top: 20px;
+        color: #080808;
+        font-family: "Montserrat";
+        font-size: 14px;
+        font-weight: 400;
+        max-width: 360px;
+        line-height: 24px;
+    }
+}
